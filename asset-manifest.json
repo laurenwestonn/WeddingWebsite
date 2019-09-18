@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/WeddingWebsite/static/css/main.2cce8147.chunk.css",
-    "main.js": "/WeddingWebsite/static/js/main.af976e17.chunk.js",
-    "main.js.map": "/WeddingWebsite/static/js/main.af976e17.chunk.js.map",
+    "main.css": "/WeddingWebsite/static/css/main.5da77746.chunk.css",
+    "main.js": "/WeddingWebsite/static/js/main.dff10ebd.chunk.js",
+    "main.js.map": "/WeddingWebsite/static/js/main.dff10ebd.chunk.js.map",
     "runtime~main.js": "/WeddingWebsite/static/js/runtime~main.806bbfdf.js",
     "runtime~main.js.map": "/WeddingWebsite/static/js/runtime~main.806bbfdf.js.map",
-    "static/js/2.a2ccf0ba.chunk.js": "/WeddingWebsite/static/js/2.a2ccf0ba.chunk.js",
-    "static/js/2.a2ccf0ba.chunk.js.map": "/WeddingWebsite/static/js/2.a2ccf0ba.chunk.js.map",
+    "static/css/2.266e55a5.chunk.css": "/WeddingWebsite/static/css/2.266e55a5.chunk.css",
+    "static/js/2.401eae52.chunk.js": "/WeddingWebsite/static/js/2.401eae52.chunk.js",
+    "static/js/2.401eae52.chunk.js.map": "/WeddingWebsite/static/js/2.401eae52.chunk.js.map",
     "index.html": "/WeddingWebsite/index.html",
-    "precache-manifest.83895500e9a569f597e753e1680522b7.js": "/WeddingWebsite/precache-manifest.83895500e9a569f597e753e1680522b7.js",
+    "precache-manifest.dcec06e014426efe969bf648d888a42a.js": "/WeddingWebsite/precache-manifest.dcec06e014426efe969bf648d888a42a.js",
     "service-worker.js": "/WeddingWebsite/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/WeddingWebsite/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/WeddingWebsite/static/media/logo.5d5d9eef.svg"
+    "static/css/2.266e55a5.chunk.css.map": "/WeddingWebsite/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.5da77746.chunk.css.map": "/WeddingWebsite/static/css/main.5da77746.chunk.css.map",
+    "static/media/RobAndLauren.jpg": "/WeddingWebsite/static/media/RobAndLauren.cf6e42b9.jpg",
+    "static/media/index.css": "/WeddingWebsite/static/media/Shink.ae6c01c6.otf"
   }
 }
