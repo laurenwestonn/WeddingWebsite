@@ -1,25 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./scss/home.scss";
+import RobAndLauren from "./images/RobAndLauren.jpg";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Lauren's website
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="row no-gutters">
+        <div className="col-12">
+          <div className="cover-photo-container">
+            <div
+              className="cover-photo"
+              style={{
+                backgroundImage:
+                  "linear-gradient(rgba(0,0, 0, 0.5), rgba(0, 0, 0, 0.8)),url(" +
+                  RobAndLauren +
+                  ")"
+              }}
+            ></div>
+            <div className="main-title">Rob & Lauren</div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
 
