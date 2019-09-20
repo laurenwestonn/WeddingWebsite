@@ -9,7 +9,7 @@ function App() {
         <div className="col-12">
           <div className="cover-photo-container">
             <div
-              className="cover-photo"
+              className="photo"
               style={{
                 backgroundImage:
                   "linear-gradient(rgba(0,0, 0, 0.5), rgba(0, 0, 0, 0.8)),url(" +
@@ -17,7 +17,11 @@ function App() {
                   ")"
               }}
             ></div>
-            <div className="main-title">Rob & Lauren</div>
+            <div className="overlay"></div>
+            <div className="content">
+              <div className="title">Rob & Lauren</div>
+              <div className="subtitle">5th July 2020</div>
+            </div>
           </div>
         </div>
       </div>
