@@ -14,7 +14,10 @@
   }
 
   .overlay {
-    color: rgba(grey, 0.5);
+    background-color: rgba(black, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
   }
 
   .content {
@@ -42,6 +45,27 @@
       z-index: 2;
       letter-spacing: 10px;
       text-transform: uppercase;
+    }
+  }
+}
+
+.nav-wrapper {
+  margin-top: -40px;
+  ul li {
+    background-color: white;
+    &.active {
+      border-bottom: #b58700 5px solid;
+      height: 40px;
+    }
+    &:hover {
+      background-color: #e9e6db;
+    }
+
+    a {
+      color: #b58700;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 2px;
     }
   }
 }
