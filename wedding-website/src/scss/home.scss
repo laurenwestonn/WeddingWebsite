@@ -50,7 +50,6 @@
 }
 
 .nav-wrapper {
-  margin-top: -40px;
   ul li {
     background-color: white;
     &.active {
@@ -67,5 +66,11 @@
       text-transform: uppercase;
       letter-spacing: 2px;
     }
+  }
+}
+
+.homepage {
+  .nav-wrapper {
+    margin-top: -40px;
   }
 }

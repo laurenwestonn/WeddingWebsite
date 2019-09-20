@@ -6,8 +6,10 @@ import RobAndLauren from "../images/RobAndLauren.jpg";
 function HomePage(props) {
   return (
     <>
-      <CoverPhoto coverPhoto={RobAndLauren} />
-      <WeddingNavBar />
+      <div className="homepage">
+        <CoverPhoto coverPhoto={RobAndLauren} />
+        <WeddingNavBar />
+      </div>
     </>
   );
 }
