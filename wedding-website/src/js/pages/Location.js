@@ -3,9 +3,9 @@ import React from "react";
 function Location() {
   return (
     <div className="location">
-      <h1>Location</h1>
+      <h1 className="title">Location</h1>
       <p>
-        Our venue will be
+        Our venue is
         <a href="https://www.styallodge.co.uk/"> Styal Lodge</a>
       </p>
     </div>

@@ -1,18 +1,38 @@
+@import "variables";
+
 a {
-  color: #b58700;
+  color: $primary-color;
 
   &:hover {
-    color: #b58700;
+    color: $primary-color;
+  }
+}
+
+body {
+  background-color: $primary-color-pale;
+}
+
+input {
+  &:focus {
+    border-color: $primary-color !important;
+    box-shadow: 0 0 0 0.2rem rgba($primary-color-dark, 0.25) !important;
   }
 }
 
 .btn-primary {
-  background-color: #b58700;
-  border-color: #b58700;
+  background-color: $primary-color;
+  border-color: $primary-color;
 
   &:hover {
-    background-color: #8b6800;
-    border-color: #8b6800;
+    background-color: $primary-color-dark;
+    border-color: $primary-color-dark;
+  }
+  &:not(:disabled):not(.disabled):active {
+    background-color: $primary-color-dark;
+    border-color: $primary-color-dark;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba($primary-color-dark, 0.5);
   }
 }
 .cover-photo-container {
@@ -81,11 +101,11 @@ a {
       text-align: center;
 
       &.active {
-        border-bottom: #b58700 5px solid;
+        border-bottom: $primary-color 5px solid;
         height: 40px;
       }
       &:hover {
-        background-color: #e9e6db;
+        background-color: $primary-color-pale;
       }
 
       a {
@@ -106,10 +126,16 @@ a {
   }
 }
 
-.content {
-  margin: 5% 15%;
+.content-page {
+  margin: 50px 15% 0;
+  padding: 90px;
+  background-color: white;
+  height: calc(100vh - 90px);
 
   .rsvp {
+    .btn-primary {
+      margin-top: 20px;
+    }
   }
 
   .location {
@@ -119,6 +145,31 @@ a {
   .location {
     .title {
       margin-bottom: 50px;
+      text-align: center;
+    }
+  }
+
+  form {
+    .form-group {
+      .custom-radio .custom-control-input {
+        /* This is the default state */
+        &:checked ~ .custom-control-label::before {
+          background-color: $primary-color;
+          border-color: $primary-color;
+        }
+
+        /* active state i.e. displayed while the mouse is being pressed down */
+        &:active ~ .custom-control-label::before {
+          color: #fff;
+          background-color: $primary-color-dark;
+        }
+
+        /* the shadow; displayed while the element is in focus */
+        &:focus ~ .custom-control-label::before {
+          box-shadow: 0 0 0 1px #fff,
+            0 0 0 0.2rem rgba($primary-color-dark, 0.25);
+        }
+      }
     }
   }
 }
