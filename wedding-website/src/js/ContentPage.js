@@ -8,8 +8,10 @@ function ContentPage() {
   return (
     <>
       <Header />
-      <Route path="/p/rsvp" component={RSVP} />
-      <Route path="/p/location" component={Location} />
+      <div className="content">
+        <Route path="/p/rsvp" component={RSVP} />
+        <Route path="/p/location" component={Location} />
+      </div>
     </>
   );
 }
