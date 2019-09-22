@@ -12,7 +12,7 @@ function WeddingNavBar(props) {
           <Link to="/p/location">LOCATION</Link>
         </li>
         <li>
-          <Link to="/p/rsvp">RSVP Link</Link>
+          <Link to="/p/rsvp">RSVP</Link>
         </li>
       </ul>
     </div>

@@ -10,7 +10,6 @@ function App() {
     <>
       <Route exact={true} path="/" component={HomePage} />
       <Route path="/p/" component={ContentPage} />
-      <Route path="/rsvp" component={RSVP} />
     </>
   );
 }
