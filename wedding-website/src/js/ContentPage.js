@@ -1,16 +1,15 @@
 import React from "react";
-import RSVP from "./RSVP";
+import RSVP from "./pages/RSVP";
 import Header from "./Header";
 import Footer from "./Footer";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Route } from "react-router-dom";
 
 function ContentPage() {
   return (
-    <Router>
+    <>
       <Header />
-      <Route exact={true} path="/p/rsvp" component={RSVP} />
-      <Footer />
-    </Router>
+      <Route exact={true} path="/rsvp" component={RSVP} />
+    </>
   );
 }
 

@@ -50,21 +50,36 @@
 }
 
 .nav-wrapper {
-  ul li {
-    background-color: white;
-    &.active {
-      border-bottom: #b58700 5px solid;
-      height: 40px;
-    }
-    &:hover {
-      background-color: #e9e6db;
-    }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
 
-    a {
-      color: #b58700;
-      font-weight: 500;
-      text-transform: uppercase;
-      letter-spacing: 2px;
+    li {
+      background-color: white;
+      flex-basis: 0;
+      flex-grow: 1;
+      text-align: center;
+
+      &.active {
+        border-bottom: #b58700 5px solid;
+        height: 40px;
+      }
+      &:hover {
+        background-color: #e9e6db;
+      }
+
+      a {
+        color: #b58700;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        display: block;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+      }
     }
   }
 }

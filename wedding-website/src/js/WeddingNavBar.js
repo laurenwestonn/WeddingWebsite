@@ -1,29 +1,20 @@
 import React from "react";
-import Nav from "react-bootstrap/Nav";
+import { Link } from "react-router-dom";
 
 function WeddingNavBar(props) {
   return (
     <div className="nav-wrapper">
-      <Nav
-        justify
-        className="justify-content-center"
-        defaultActiveKey="/home"
-        as="ul"
-      >
-        <Nav.Item as="li">
-          <Nav.Link href="/p/ourwedding">OUR WEDDING</Nav.Link>
-        </Nav.Item>
-        <Nav.Item as="li">
-          <Nav.Link href="/p/location" eventKey="link-1">
-            LOCATION
-          </Nav.Link>
-        </Nav.Item>
-        <Nav.Item as="li">
-          <Nav.Link href="/p/rsvp" eventKey="link-2">
-            RSVP
-          </Nav.Link>
-        </Nav.Item>
-      </Nav>
+      <ul class="justify-content-center">
+        <li>
+          <Link to="/">OUR WEDDING</Link>
+        </li>
+        <li>
+          <Link to="/p/location">LOCATION</Link>
+        </li>
+        <li>
+          <Link to="/p/rsvp">RSVP Link</Link>
+        </li>
+      </ul>
     </div>
   );
 }

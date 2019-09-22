@@ -1,15 +1,17 @@
 import React from "react";
 import "./scss/home.scss";
-import HomePage from "./js/HomePage";
+import HomePage from "./js/pages/HomePage";
+import RSVP from "./js/pages/RSVP";
 import ContentPage from "./js/ContentPage";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <>
       <Route exact={true} path="/" component={HomePage} />
-      <Route path="/p" component={ContentPage} />
-    </Router>
+      <Route path="/p/" component={ContentPage} />
+      <Route path="/rsvp" component={RSVP} />
+    </>
   );
 }
 
