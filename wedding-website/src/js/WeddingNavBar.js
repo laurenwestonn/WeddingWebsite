@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function WeddingNavBar(props) {
   return (
     <div className="nav-wrapper">
-      <ul class="justify-content-center">
+      <ul className="justify-content-center">
         <li>
           <Link to="/">OUR WEDDING</Link>
         </li>

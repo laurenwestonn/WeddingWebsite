@@ -1,4 +1,4 @@
-@import "variables";
+@import "_variables";
 
 a {
   color: $primary-color;
@@ -41,6 +41,14 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  &.big {
+    height: 100vh;
+  }
+
+  &.small {
+    height: 50vh;
+  }
 
   .photo {
     height: 100%;
@@ -87,6 +95,8 @@ input {
 }
 
 .nav-wrapper {
+  margin: 0 100px;
+
   ul {
     display: flex;
     flex-wrap: wrap;
@@ -115,6 +125,7 @@ input {
         display: block;
         padding: 0.5rem 1rem;
         text-decoration: none;
+        line-height: 2.5em;
       }
     }
   }

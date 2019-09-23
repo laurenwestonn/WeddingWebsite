@@ -1,7 +1,6 @@
 import React from "react";
 import "./scss/home.scss";
 import HomePage from "./js/pages/HomePage";
-import RSVP from "./js/pages/RSVP";
 import ContentPage from "./js/ContentPage";
 import { Route } from "react-router-dom";
 

@@ -1,13 +1,12 @@
 import React from "react";
-import CoverPhoto from "../CoverPhoto";
+import CoverPhoto from "../components/CoverPhoto";
 import WeddingNavBar from "../WeddingNavBar";
-import RobAndLauren from "../../images/RobAndLauren.jpg";
 
-function HomePage(props) {
+function HomePage() {
   return (
     <>
       <div className="homepage">
-        <CoverPhoto coverPhoto={RobAndLauren} />
+        <CoverPhoto isBig={true} />
         <WeddingNavBar />
       </div>
     </>
