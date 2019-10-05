@@ -14,56 +14,65 @@ input {
 }
 
 .content-page {
-  margin: 50px 20px 0;
-  background-color: white;
-  height: calc(100vh - 90px);
+  background-image: url(https://i.pinimg.com/originals/0d/40/6b/0d406bf054e7332af25b1127b6cf9764.jpg);
+  background-size: cover;
+  padding: 50px 20px;
+  margin-top: -20px;
 
   @include media-breakpoint-up(md) {
-    margin: 50px 18% 0;
-    padding: 50px;
+    padding: 100px 16%;
   }
   @include media-breakpoint-up(lg) {
-    margin: 50px 22% 0;
-    padding: 90px;
+    padding: 150px 20%;
   }
 
-  .rsvp {
-    .btn-primary {
-      margin-top: 20px;
+  .content {
+    padding: 50px 20px;
+    background-color: white;
+    min-height: calc(100vh - 90px);
+    @include media-breakpoint-up(md) {
     }
-  }
-
-  .location {
-  }
-
-  .rsvp,
-  .location {
-    .title {
-      margin-bottom: 50px;
-      text-align: center;
-      font-family: 'bromello';
+    @include media-breakpoint-up(lg) {
     }
-  }
 
-  form {
-    .form-group {
-      .custom-radio .custom-control-input {
-        /* This is the default state */
-        &:checked ~ .custom-control-label::before {
-          background-color: $primary-color;
-          border-color: $primary-color;
-        }
+    .rsvp {
+      .btn-primary {
+        margin-top: 20px;
+      }
+    }
 
-        /* active state i.e. displayed while the mouse is being pressed down */
-        &:active ~ .custom-control-label::before {
-          color: #fff;
-          background-color: $primary-color-dark;
-        }
+    .location {
+    }
 
-        /* the shadow; displayed while the element is in focus */
-        &:focus ~ .custom-control-label::before {
-          box-shadow: 0 0 0 1px #fff,
-            0 0 0 0.2rem rgba($primary-color-dark, 0.25);
+    .rsvp,
+    .location {
+      .title {
+        margin-bottom: 50px;
+        text-align: center;
+        font-family: 'bromello';
+      }
+    }
+
+    form {
+      .form-group {
+        .custom-radio .custom-control-input {
+          /* This is the default state */
+          &:checked ~ .custom-control-label::before {
+            background-color: $primary-color;
+            border-color: $primary-color;
+          }
+
+          /* active state i.e. displayed while the mouse is being pressed down */
+          &:active ~ .custom-control-label::before {
+            color: #fff;
+            background-color: $primary-color-dark;
+          }
+
+          /* the shadow; displayed while the element is in focus */
+          &:focus ~ .custom-control-label::before {
+            box-shadow: 0 0 0 1px #fff,
+              0 0 0 0.2rem rgba($primary-color-dark, 0.25);
+          }
         }
       }
     }
