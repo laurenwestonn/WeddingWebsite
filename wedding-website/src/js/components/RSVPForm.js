@@ -1,24 +1,24 @@
-import React from 'react';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
+import React from "react";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
 
 function RSVPForm() {
   return (
     <div>
       <Form
-        action={'https://formspree.io/laurenwestonn@gmail.com'}
-        method={'POST'}
+        action={"https://formspree.io/laurenwestonn@gmail.com"}
+        method={"POST"}
         onSubmit={e => e.preventDefault()}
+        autocomplete={"off"}
       >
         <input type="hidden" name="_subject" value="Wedding RSVP" />
 
         <Form.Group controlId="formGroupName">
-          <Form.Label>Full Name</Form.Label>
           <Form.Control
             name="name"
             required
             type="text"
-            placeholder="Enter your name"
+            placeholder="Enter your full name"
           />
         </Form.Group>
 
@@ -30,16 +30,16 @@ function RSVPForm() {
               label="Yes"
               type="radio"
               name="rsvp-radio"
-              id={'yes'}
-              value={'yes'}
+              id={"yes"}
+              value={"yes"}
             />
             <Form.Check
               custom
               label="No"
               type="radio"
               name="rsvp-radio"
-              id={'no'}
-              value={'no'}
+              id={"no"}
+              value={"no"}
             />
           </div>
         </Form.Group>
@@ -53,7 +53,7 @@ function RSVPForm() {
               type="radio"
               name="food-radio"
               id={`meat`}
-              value={'meat'}
+              value={"meat"}
             />
             <Form.Check
               custom
@@ -61,7 +61,7 @@ function RSVPForm() {
               type="radio"
               name="food-radio"
               id={`vegetarian`}
-              value={'vegetarian'}
+              value={"vegetarian"}
             />
             <Form.Check
               custom
@@ -69,13 +69,12 @@ function RSVPForm() {
               type="radio"
               name="food-radio"
               id={`vegan`}
-              value={'vegan'}
+              value={"vegan"}
             />
           </div>
         </Form.Group>
 
         <Form.Group controlId="formGroupAllergies">
-          <Form.Label>Any allergies?</Form.Label>
           <Form.Control
             name="allergies"
             type="text"
@@ -84,7 +83,6 @@ function RSVPForm() {
         </Form.Group>
 
         <Form.Group controlId="formGroupSong">
-          <Form.Label>Song choice</Form.Label>
           <Form.Control
             name="song"
             type="text"
