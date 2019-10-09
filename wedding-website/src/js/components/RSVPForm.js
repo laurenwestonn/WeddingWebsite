@@ -9,7 +9,7 @@ function RSVPForm() {
         action={"https://formspree.io/laurenwestonn@gmail.com"}
         method={"POST"}
         onSubmit={e => e.preventDefault()}
-        autocomplete={"off"}
+        autoComplete={"off"}
       >
         <input type="hidden" name="_subject" value="Wedding RSVP" />
 
