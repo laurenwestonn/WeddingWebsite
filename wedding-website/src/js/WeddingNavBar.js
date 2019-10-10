@@ -1,5 +1,5 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 function WeddingNavBar(props) {
   return (
@@ -8,19 +8,13 @@ function WeddingNavBar(props) {
         <div className="col-md-6 offset-md-3">
           <ul>
             <li>
-              <Link to="/">
-                <div className="navLink">OUR WEDDING</div>
-              </Link>
+              <Link to="/">OUR WEDDING</Link>
             </li>
             <li>
-              <Link to="/p/location">
-                <div className="navLink">LOCATION</div>
-              </Link>
+              <Link to="/p/location">LOCATION </Link>
             </li>
             <li>
-              <Link to="/p/rsvp">
-                <div className="navLink">RSVP</div>
-              </Link>
+              <Link to="/p/rsvp">RSVP</Link>
             </li>
           </ul>
         </div>
