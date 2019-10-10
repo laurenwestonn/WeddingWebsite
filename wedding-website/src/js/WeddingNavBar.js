@@ -1,20 +1,30 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import {Link} from 'react-router-dom';
 
 function WeddingNavBar(props) {
   return (
     <div className="nav-wrapper">
-      <ul className="justify-content-center">
-        <li>
-          <Link to="/">OUR WEDDING</Link>
-        </li>
-        <li>
-          <Link to="/p/location">LOCATION</Link>
-        </li>
-        <li>
-          <Link to="/p/rsvp">RSVP</Link>
-        </li>
-      </ul>
+      <div className="row no-gutters">
+        <div className="col-md-6 offset-md-3">
+          <ul>
+            <li>
+              <Link to="/">
+                <div className="navLink">OUR WEDDING</div>
+              </Link>
+            </li>
+            <li>
+              <Link to="/p/location">
+                <div className="navLink">LOCATION</div>
+              </Link>
+            </li>
+            <li>
+              <Link to="/p/rsvp">
+                <div className="navLink">RSVP</div>
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }

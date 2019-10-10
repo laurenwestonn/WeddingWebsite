@@ -19,11 +19,13 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      height: 45px;
 
       &.active {
+        padding-top: 5px;
         border-bottom: $primary-color 5px solid;
-        height: 40px;
       }
+
       &:hover {
         background-color: $gray-200;
       }
@@ -37,19 +39,30 @@
         padding: 0.5rem 1rem;
         text-decoration: none;
         line-height: normal;
+        padding: 0;
+
+        .navLink {
+        }
       }
     }
   }
 
   @include media-breakpoint-up(lg) {
-    margin: -30px 100px 0;
-
     ul li {
+      height: 75px;
       a {
-        line-height: 2.5em;
-        font-size: 14px;
-        width: 100%;
+        text-align: center;
+        font-size: 12px;
         height: 100%;
+        width: 100%;
+
+        .navLink {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100%;
+          width: 100%;
+        }
       }
     }
   }
