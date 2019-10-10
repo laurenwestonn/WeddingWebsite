@@ -16,9 +16,10 @@
   .photo {
     height: 100%;
     width: 100%;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-y: -100px;
+    background-size: 100% calc(1100px + 100px);
   }
 
   .overlay {

@@ -14,7 +14,6 @@ function CoverPhoto(props) {
             'linear-gradient(rgba(0,0, 0, 0.6), rgba(0, 0, 0, 0.3)),url(' +
             RobAndLauren +
             ')',
-          backgroundPositionY: '-100px',
         }}
       ></div>
       <div className="content">
