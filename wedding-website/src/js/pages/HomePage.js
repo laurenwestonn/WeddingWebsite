@@ -7,11 +7,15 @@ function HomePage() {
   var aboutUsPeople = [
     {
       name: "Robert Carter",
-      image: RobAndLauren2
+      image: RobAndLauren2,
+      bio:
+        "Once upon a time, Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce elementum elementum erat a blandit."
     },
     {
       name: "Lauren Weston",
-      image: RobAndLauren3
+      image: RobAndLauren3,
+      bio:
+        "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce elementum elementum erat a blandit."
     }
   ];
 
