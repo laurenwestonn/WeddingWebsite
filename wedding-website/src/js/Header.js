@@ -1,6 +1,5 @@
-import React from 'react';
-import WeddingNavBar from './WeddingNavBar';
-import CoverPhoto from './components/CoverPhoto';
+import React from "react";
+import { CoverPhoto, WeddingNavBar } from "./components";
 
 function Header() {
   return (
