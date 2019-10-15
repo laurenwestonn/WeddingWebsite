@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function WeddingNavBar(props) {
   return (
-    <div className="nav-wrapper">
+    <div className="nav-wrapper sticky">
       <div className="row no-gutters">
         <div className="col-md-6 offset-md-3">
           <ul>

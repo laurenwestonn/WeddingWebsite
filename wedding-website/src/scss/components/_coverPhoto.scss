@@ -9,11 +9,13 @@
   &.big {
     height: 100vh;
     top: -80px;
+    margin-bottom: -80px;
   }
 
   &.small {
     height: 50vh;
     top: -45px;
+    margin-bottom: -45px;
   }
 
   .photo {

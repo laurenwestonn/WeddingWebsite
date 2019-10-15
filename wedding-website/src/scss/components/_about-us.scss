@@ -1,12 +1,10 @@
 .about-us {
-  background-color: aliceblue;
-  padding: 70px;
+  padding: 30px;
 
   .person-info {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
 
     .image-wrapper {
       margin: 40px 40px 20px;
@@ -22,8 +20,8 @@
       }
 
       @include media-breakpoint-up(lg) {
-        height: 300px;
-        width: 300px;
+        height: 250px;
+        width: 250px;
       }
 
       .person-image {
@@ -31,18 +29,17 @@
         margin: 0 auto;
         margin-left: -25%; //centers the image
         height: 100%;
-        width: auto;
       }
     }
     .person-name {
       font-size: 20px;
-      margin-bottom: 10px;
+      margin: 10px auto;
     }
 
     .person-description {
       font-size: 14px;
       text-align: center;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
   }
   .people-connector {
@@ -50,9 +47,15 @@
     justify-content: center;
     font-size: 50px;
     color: $primary-color;
+    font-family: Bromello;
 
     @include media-breakpoint-up(sm) {
-      margin-top: 260px;
+      margin-top: 230px;
+    }
+
+    @include media-breakpoint-up(xl) {
+      margin-top: 160px;
+      font-size: 60px;
     }
   }
 }

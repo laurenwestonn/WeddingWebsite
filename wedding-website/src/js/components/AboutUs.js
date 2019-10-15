@@ -10,17 +10,17 @@ function AboutUs(props) {
           if (index % 2 === 0) {
             return (
               <>
-                <div className="col-12 col-sm-5 offset-md-2 col-md-3 offset-xl-3 col-xl-2">
+                <div className="col-12 col-sm-5 offset-md-2 col-md-3 offset-xl-2 col-xl-3">
                   <PersonInfo key={index} person={person} />
                 </div>
-                <div className="col-12 col-sm-2">
+                <div className="col-12 col-sm-2 col-xxl-2">
                   <div className="people-connector">&</div>
                 </div>
               </>
             );
           } else {
             return (
-              <div className="col-12 col-sm-5 col-md-3 col-xl-2">
+              <div className="col-12 col-sm-5 col-md-3 col-xxl-3">
                 <PersonInfo key={index} person={person} />
               </div>
             );
