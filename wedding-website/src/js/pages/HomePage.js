@@ -1,5 +1,5 @@
 import React from "react";
-import { CoverPhoto, AboutUs, WeddingNavBar } from "../components";
+import { CoverPhoto, AboutUs, WeddingNavBar, Countdown } from "../components";
 import RobAndLauren2 from "../../images/RobAndLauren2.jpg";
 import RobAndLauren3 from "../../images/RobAndLauren3.jpg";
 
@@ -25,6 +25,7 @@ function HomePage() {
         <WeddingNavBar />
         <CoverPhoto isBig={true} />
         <AboutUs people={aboutUsPeople} />
+        <Countdown />
       </div>
     </>
   );
