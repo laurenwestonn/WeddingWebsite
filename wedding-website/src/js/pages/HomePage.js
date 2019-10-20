@@ -1,5 +1,11 @@
 import React from 'react';
-import {CoverPhoto, AboutUs, WeddingNavBar, Countdown} from '../components';
+import {
+  CoverPhoto,
+  WeddingNavBar,
+  AboutUs,
+  Countdown,
+  MapContainer,
+} from '../components';
 import RobAndLauren2 from '../../images/RobAndLauren2.jpg';
 import RobAndLauren3 from '../../images/RobAndLauren3.jpg';
 
@@ -26,6 +32,7 @@ function HomePage() {
         <CoverPhoto isBig={true} />
         <AboutUs people={aboutUsPeople} />
         <Countdown countdownFrom={new Date(2020, 6, 5, 14, 0, 0)} />
+        <MapContainer />
       </div>
     </>
   );

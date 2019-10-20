@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { PersonInfo } from "../components";
+import React from 'react';
+import PropTypes from 'prop-types';
+import {PersonInfo} from '../components';
 
 function AboutUs(props) {
   return (
@@ -10,8 +10,11 @@ function AboutUs(props) {
           if (index % 2 === 0) {
             return (
               <>
-                <div className="col-12 col-sm-5 offset-md-2 col-md-3 offset-xl-2 col-xl-3">
-                  <PersonInfo key={index} person={person} />
+                <div
+                  key={index}
+                  className="col-12 col-sm-5 offset-md-2 col-md-3 offset-xl-2 col-xl-3"
+                >
+                  <PersonInfo person={person} />
                 </div>
                 <div className="col-12 col-sm-2 col-xxl-2">
                   <div className="people-connector">&</div>
@@ -20,8 +23,8 @@ function AboutUs(props) {
             );
           } else {
             return (
-              <div className="col-12 col-sm-5 col-md-3 col-xxl-3">
-                <PersonInfo key={index} person={person} />
+              <div key={index} className="col-12 col-sm-5 col-md-3 col-xxl-3">
+                <PersonInfo person={person} />
               </div>
             );
           }
@@ -32,7 +35,7 @@ function AboutUs(props) {
 }
 
 AboutUs.propTypes = {
-  people: PropTypes.array
+  people: PropTypes.array,
 };
 
 export default AboutUs;
