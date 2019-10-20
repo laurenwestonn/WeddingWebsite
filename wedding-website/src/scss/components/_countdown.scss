@@ -23,16 +23,15 @@
   .countdown-breakdown {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    margin: 20px 40px;
 
     .box {
-      width: 120px;
-      height: 120px;
+      width: 115px;
+      height: 115px;
       background-color: white;
       display: flex;
       justify-content: center;
       flex-direction: column;
-      margin: 20px;
 
       .value {
         font-size: 40px;
