@@ -13,10 +13,21 @@
       font-family: Bromello;
     }
     .location {
-      div {
+      div,
+      a {
         text-transform: uppercase;
         letter-spacing: 2px;
         font-size: 13px;
+      }
+    }
+    .address-1 {
+      z-index: 4;
+      text-decoration: none;
+      color: inherit;
+
+      &:hover {
+        font-weight: bold;
+        text-decoration: underline;
       }
     }
   }

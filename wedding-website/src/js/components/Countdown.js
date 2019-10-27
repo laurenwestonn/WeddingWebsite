@@ -35,7 +35,9 @@ function Countdown(props) {
       <div className="countdown-info">
         <div className="date">5th July 2020</div>
         <div className="location">
-          <div className="address-1">Styal Lodge</div>
+          <a className="address-1" href="https://www.styallodge.co.uk/">
+            Styal Lodge
+          </a>
           <div className="address-2">Station Road, Styal</div>
           <div className="postcode">SK9 4JN</div>
         </div>
