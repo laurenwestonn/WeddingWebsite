@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7d5b09bac61f7c031f000c9bd6da481a",
+    "revision": "0f7cec9b05ec39d3f0fbca29fb1a6462",
     "url": "/WeddingWebsite/index.html"
   },
   {
-    "revision": "e129a9191a45a710f9da",
+    "revision": "2e8d4d433c00cc257d94",
     "url": "/WeddingWebsite/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "1dca1a16e9b7bd43b208",
-    "url": "/WeddingWebsite/static/css/main.95926011.chunk.css"
+    "revision": "7936bf701c3a34c50899",
+    "url": "/WeddingWebsite/static/css/main.8b6d7c2d.chunk.css"
   },
   {
-    "revision": "e129a9191a45a710f9da",
-    "url": "/WeddingWebsite/static/js/2.7367f905.chunk.js"
+    "revision": "2e8d4d433c00cc257d94",
+    "url": "/WeddingWebsite/static/js/2.0494063b.chunk.js"
   },
   {
-    "revision": "1dca1a16e9b7bd43b208",
-    "url": "/WeddingWebsite/static/js/main.9eb774b2.chunk.js"
+    "revision": "7936bf701c3a34c50899",
+    "url": "/WeddingWebsite/static/js/main.efec23a7.chunk.js"
   },
   {
     "revision": "abfd7096593776175c55",
     "url": "/WeddingWebsite/static/js/runtime~main.806bbfdf.js"
+  },
+  {
+    "revision": "78f3f9e667499b0b1cf10cc3c1f960c8",
+    "url": "/WeddingWebsite/static/media/FlowerBorder.78f3f9e6.png"
   },
   {
     "revision": "cb32a8a211ecd557c55596b150caa62f",
