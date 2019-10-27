@@ -7,7 +7,22 @@
     margin: 0 auto;
     position: absolute;
     z-index: 2;
-    height: 450px;
-    top: -210px;
+    height: 300px;
+    top: -140px;
+
+    @include media-breakpoint-up(sm) {
+      height: 340px;
+      top: -170px;
+    }
+
+    @include media-breakpoint-up(md) {
+      height: 450px;
+      top: -210px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      height: 550px;
+      top: -260px;
+    }
   }
 }
