@@ -16,6 +16,11 @@
     height: 50vh;
     top: -45px;
     margin-bottom: -45px;
+
+    @include media-breakpoint-up(lg) {
+      top: -80px;
+      margin-bottom: -80px;
+    }
   }
 
   .photo {

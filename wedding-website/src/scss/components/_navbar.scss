@@ -4,11 +4,20 @@
   z-index: 2;
   margin: 0;
   border-bottom: 1px solid rgba(222, 222, 222, 0.15);
+  color: white;
+  z-index: 3;
 
   &.sticky {
     position: sticky;
     top: 0;
   }
+
+  &.scrolled {
+    background-color: white;
+    color: $primary-color;
+    transition: background-color 200ms linear;
+  }
+
   ul {
     display: flex;
     flex-wrap: wrap;
@@ -39,7 +48,7 @@
         padding: 0.5rem 1rem;
         text-decoration: none;
         padding: 0;
-        color: white;
+        color: inherit;
       }
     }
   }

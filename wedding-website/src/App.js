@@ -3,6 +3,14 @@ import "./scss/main.scss";
 import HomePage from "./js/pages/HomePage";
 import { ContentPage, FullWidthContentPage } from "./js/pages";
 import { Route } from "react-router-dom";
+import $ from "jquery";
+
+$(function() {
+  $(document).scroll(function() {
+    var $nav = $(".nav-wrapper");
+    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+  });
+});
 
 function App() {
   return (
