@@ -11,7 +11,10 @@ function Countdown(props) {
     const interval = setInterval(() => {
       let msToHours = 1000 * 3600;
 
-      let msBetween = props.countdownFrom - new Date();
+      let msBetween =
+        (props.countdownFrom
+          ? props.countdownFrom
+          : new Date(2020, 6, 5, 14, 0, 0)) - new Date();
 
       setDays(Math.floor(msBetween / (msToHours * 24)));
       let daysRemainder = msBetween % (msToHours * 24);

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function WeddingNavBar(props) {
+function WeddingNavBar() {
   return (
     <div className="nav-wrapper sticky">
       <div className="row no-gutters">
@@ -11,7 +11,7 @@ function WeddingNavBar(props) {
               <Link to="/">OUR WEDDING</Link>
             </li>
             <li>
-              <Link to="/p/location">LOCATION </Link>
+              <Link to="/full-width/location">LOCATION </Link>
             </li>
             <li>
               <Link to="/p/rsvp">RSVP</Link>
