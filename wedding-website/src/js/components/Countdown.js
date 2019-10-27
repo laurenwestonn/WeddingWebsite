@@ -1,5 +1,5 @@
-import React, {useEffect, useState} from 'react';
-import PropTypes from 'prop-types';
+import React, { useEffect, useState } from "react";
+import PropTypes from "prop-types";
 
 function Countdown(props) {
   const [days, setDays] = useState(null);
@@ -72,5 +72,5 @@ function Countdown(props) {
 export default Countdown;
 
 Countdown.propTypes = {
-  countdownFrom: PropTypes.instanceOf(Date),
+  countdownFrom: PropTypes.instanceOf(Date)
 };

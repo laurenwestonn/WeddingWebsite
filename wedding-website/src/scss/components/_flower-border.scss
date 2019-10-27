@@ -1,0 +1,13 @@
+.flower-border {
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  img {
+    margin: 0 auto;
+    position: absolute;
+    z-index: 2;
+    height: 450px;
+    top: -210px;
+  }
+}
