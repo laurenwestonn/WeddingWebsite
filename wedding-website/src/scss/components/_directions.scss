@@ -1,0 +1,72 @@
+.directions {
+  position: relative;
+  .background-wrapper {
+    .directions-background {
+      position: absolute;
+      z-index: -1;
+      height: 100%;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+
+  .top-layer {
+    text-align: center;
+    padding: 60px 10px;
+    z-index: 1;
+
+    h2,
+    .direction-info {
+      color: lightgrey;
+      margin-top: 10px;
+    }
+
+    .direction-link {
+      text-decoration: none;
+      color: inherit;
+
+      .direction-option {
+        border: 5px white solid;
+        margin: 30px 0;
+        padding: 10px;
+        background-image: linear-gradient(rgba(white, 0.7), rgba(white, 0.6));
+
+        .option-title {
+          margin: 10px;
+        }
+        .info {
+          font-size: 14px;
+        }
+        .map-button {
+          margin: 20px 0;
+          color: white;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          font-style: oblique;
+        }
+
+        @include media-breakpoint-up(md) {
+          .option-title,
+          .info,
+          .map-button {
+            margin: 25px auto;
+          }
+        }
+      }
+
+      &:hover {
+        .direction-option {
+          background: rgba(white, 0.9);
+        }
+
+        .direction-option {
+          .map-button {
+            color: #555;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}
