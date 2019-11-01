@@ -24,6 +24,7 @@
     .direction-info {
       color: whitesmoke;
       margin-top: 10px;
+      margin-bottom: 20px;
     }
 
     .direction-link {
@@ -37,13 +38,23 @@
         margin: 35px 0;
         padding: 10px;
         background-image: linear-gradient(rgba(white, 0.7), rgba(white, 0.7));
-        min-height: 255px;
+        
+        @include media-breakpoint-up(sm) {
+          min-height: 295px;
+        }
+        @include media-breakpoint-up(md) {
+          min-height: 275px;
+        }
+        @include media-breakpoint-up(md) {
+          min-height: 255px;
+        }
 
         .option-title {
           margin: 10px;
         }
         .info {
           font-size: 14px;
+          margin-bottom: 50px; // to ensure room for button
         }
 
         .button-section {

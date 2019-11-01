@@ -33,7 +33,7 @@ function Directions() {
                   href="https://www.google.com/maps/dir/Deansgate,+Manchester/Styal+Lodge+Weddings,+Station+Road,+Styal+SK9+4JN/@53.4130402,-2.3265686,12z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x487bb1dd30adf0f5:0x1f4fb79c3ed50253!2m2!1d-2.2495394!2d53.4782896!1m5!1m1!1s0x487a4d45eaad5471:0x91c28dafd5cd4d1c!2m2!1d-2.2388137!2d53.3555229!3e0"
                 >
                   <div className="direction-option">
-                    <h1 className="option-title">By car</h1>
+                    <h2 className="option-title">By car</h2>
                     <div className="info">
                       As the venue is near the airport, the length of journey
                       can vary by car. It should take just over half an hour
@@ -41,7 +41,7 @@ function Directions() {
                     </div>
                     <div className="button-section">
                       <div className="button-text">View Map</div>
-                      <span class="fas fa-arrow-circle-right"></span>
+                      <span class="fas fa-chevron-right"></span>  
                     </div>
                   </div>
                 </a>
@@ -60,7 +60,7 @@ function Directions() {
                     </div>
                     <div className="button-section">
                       <div className="button-text">View Map</div>
-                      <span class="fas fa-arrow-circle-right"></span>
+                      <span class="fas fa-chevron-right"></span>                   
                     </div>                  
                   </div>
                 </a>
