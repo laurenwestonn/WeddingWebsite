@@ -2,6 +2,6 @@
   font-family: "Shink";
   src: local("Shink"), url(./fonts/Shink.otf) format("opentype");
 
-  font-family: "bromello";
-  src: local("bromello"), url(./fonts/bromello.otf) format("opentype");
+  font-family: "Bromello";
+  src: local("Bromello"), url(./fonts/bromello.otf) format("opentype");
 }

@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-import RobAndLauren from "../../images/RobAndLauren.jpg";
-import image_top from "../../images/line_top.png";
-import image_bottom from "../../images/line_bottom.png";
+import RobAndLauren from "../../images/theLovelyCouple/RobAndLauren.jpg";
+import image_top from "../../images/borders/line_top.png";
+import image_bottom from "../../images/borders/line_bottom.png";
 
 function CoverPhoto(props) {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import WatercolourFlowers from "../../images/FlowerBorder.png";
+import WatercolourFlowers from "../../images/borders/FlowerBorder.png";
 
 function FlowerBorder() {
   return (

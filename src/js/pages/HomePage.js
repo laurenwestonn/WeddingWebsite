@@ -7,22 +7,22 @@ import {
   Countdown,
   MapContainer
 } from "../components";
-import RobAndLauren2 from "../../images/RobAndLauren2.jpg";
-import RobAndLauren3 from "../../images/RobAndLauren3.jpg";
+import Rob from "../../images/theLovelyCouple/Dot/BeerCheckedShirt.jpg";
+import Lauren from "../../images/theLovelyCouple/Pot/MissToMrs.jpg";
 
 function HomePage() {
   var aboutUsPeople = [
     {
       name: "Robert Carter",
-      image: RobAndLauren2,
+      image: Rob,
       bio:
-        "Once upon a time, Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce elementum elementum erat a blandit."
+        "Enjoying cartoons just as much as a scotch with Sinatra, Rob is a lovely mix of big kid and oldie. He's always willing to get stuck into anything - especially if it involves Marvel or DC."
     },
     {
       name: "Lauren Weston",
-      image: RobAndLauren3,
+      image: Lauren,
       bio:
-        "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce elementum elementum erat a blandit."
+        "Equally creative as she is technical, Lauren grew up loving art and drama but ended up with a degree in Computer Science. This party animal lives life to its fullest."
     }
   ];
 
