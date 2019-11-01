@@ -1,0 +1,82 @@
+.timeline {
+    padding: 50px 20px;
+
+    @include media-breakpoint-up(xl) {
+        padding: 80px 15vw;
+    }
+
+    .header {
+        .timeline-title {
+            color: $primary-color-dark;
+            text-align: center;
+        }
+        .image-wrapper{
+            width: 100%;
+            text-align: center;
+            margin-bottom: 40px;
+            .underline {
+                width: 160px;
+                filter: invert(1);
+            }
+    }
+    }
+
+    .story-event {
+        margin: 20px 0 20px 40px;
+
+        > div {
+            margin: 0;
+            line-height: 1.2em;
+        }
+
+        .date {
+            color: $primary-color;
+            font-weight: bold;
+        }
+
+        .title {
+            font-weight: bold;
+        }
+
+        .location {
+            color: grey;
+            font-size: 14px;
+        }
+    
+        .description {
+            font-size: 12px;
+            font-style: italic;
+            margin-top: 5px;
+            color: #444;
+            line-height: 1.5em;
+        }
+
+        @include media-breakpoint-up(sm) {
+            &.left {
+                text-align: right;
+                margin-right: calc(50vw + 15px);
+            }
+            &.right {
+                text-align: left;
+                margin-left: calc(50vw + 15px);
+            }
+        }
+    
+        @include media-breakpoint-up(md) {
+            .description {
+                font-size: 14px;
+            }
+        }
+    
+        @include media-breakpoint-up(xl) {
+            &.left {
+                margin-right: calc(36vw + 15px);
+            }
+            &.right {
+                margin-left: calc(36vw + 15px);
+            }
+        }
+
+
+    }
+}

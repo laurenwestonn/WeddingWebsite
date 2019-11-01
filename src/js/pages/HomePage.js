@@ -5,7 +5,8 @@ import {
   AboutUs,
   FlowerBorder,
   Countdown,
-  MapContainer
+  MapContainer,
+  Timeline
 } from "../components";
 import Rob from "../../images/theLovelyCouple/Dot/BeerCheckedShirt.jpg";
 import Lauren from "../../images/theLovelyCouple/Pot/MissToMrs.jpg";
@@ -34,7 +35,8 @@ function HomePage() {
         <AboutUs people={aboutUsPeople} />
         <FlowerBorder />
         <Countdown countdownFrom={new Date(2020, 6, 5, 14, 0, 0)} />
-        <MapContainer />
+        {/* <MapContainer /> */}
+        <Timeline />
       </div>
     </>
   );
