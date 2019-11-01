@@ -1,5 +1,6 @@
 .about-us {
   padding: 60px 30px;
+  min-height: 672px;
 
   @include media-breakpoint-up(md) {
     padding: 90px 30px;
@@ -18,14 +19,34 @@
       overflow: hidden;
       border-radius: 100%;
 
+      -webkit-transition: height 1s, width 1s;
+      -moz-transition: height 1s, width 1s;
+      -o-transition: height 1s, width 1s;
+      transition: height 1s, width 1s;
+
+      &:hover {
+        height: 360px;
+        width: 360px;
+      }
+
       @include media-breakpoint-up(sm) {
         height: 200px;
         width: 200px;
+
+        &:hover {
+          height: 210px;
+          width: 210px;
+        }
       }
 
       @include media-breakpoint-up(lg) {
         height: 250px;
         width: 250px;
+
+        &:hover {
+          height: 270px;
+          width: 270px;
+        }
       }
 
       .person-image {

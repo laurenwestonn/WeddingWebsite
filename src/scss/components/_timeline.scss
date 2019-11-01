@@ -9,7 +9,18 @@
         .timeline-title {
             color: $primary-color-dark;
             text-align: center;
+
+            -webkit-transition: font-size 1s;
+            -moz-transition: font-size 1s;
+            -o-transition: font-size 1s;
+            transition: font-size 1s;
+
+            &:hover {
+                font-size: 45px;
+            }
         }
+
+
         .image-wrapper{
             width: 100%;
             text-align: center;
