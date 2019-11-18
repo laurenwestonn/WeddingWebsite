@@ -1,5 +1,5 @@
 import React from "react";
-import { FlowerBorder, Countdown, Directions } from "../components";
+import { FlowerBorder, Countdown, Directions, Hotels } from "../components";
 
 function Location() {
   return (
@@ -7,6 +7,7 @@ function Location() {
       <FlowerBorder />
       <Countdown />
       <Directions />
+      <Hotels />
     </>
   );
 }

@@ -3,5 +3,5 @@
   src: local("Shink"), url(./fonts/Shink.otf) format("opentype");
 
   font-family: "Bromello";
-  src: local("Bromello"), url(./fonts/bromello.otf) format("opentype");
+  src: local("Bromello"), url(./fonts/Bromello.otf) format("opentype");
 }
