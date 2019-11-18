@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/WeddingWebsite/static/css/main.0b353f45.chunk.css",
-    "main.js": "/WeddingWebsite/static/js/main.f3a56217.chunk.js",
-    "main.js.map": "/WeddingWebsite/static/js/main.f3a56217.chunk.js.map",
+    "main.css": "/WeddingWebsite/static/css/main.d6a15490.chunk.css",
+    "main.js": "/WeddingWebsite/static/js/main.53b23da7.chunk.js",
+    "main.js.map": "/WeddingWebsite/static/js/main.53b23da7.chunk.js.map",
     "runtime~main.js": "/WeddingWebsite/static/js/runtime~main.806bbfdf.js",
     "runtime~main.js.map": "/WeddingWebsite/static/js/runtime~main.806bbfdf.js.map",
     "static/css/2.266e55a5.chunk.css": "/WeddingWebsite/static/css/2.266e55a5.chunk.css",
     "static/js/2.980ec23c.chunk.js": "/WeddingWebsite/static/js/2.980ec23c.chunk.js",
     "static/js/2.980ec23c.chunk.js.map": "/WeddingWebsite/static/js/2.980ec23c.chunk.js.map",
     "index.html": "/WeddingWebsite/index.html",
-    "precache-manifest.f51f952cd546fef69be24bb70babc947.js": "/WeddingWebsite/precache-manifest.f51f952cd546fef69be24bb70babc947.js",
+    "precache-manifest.530e338a121a37e2d319b9eaf9b2d5e4.js": "/WeddingWebsite/precache-manifest.530e338a121a37e2d319b9eaf9b2d5e4.js",
     "service-worker.js": "/WeddingWebsite/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/WeddingWebsite/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.0b353f45.chunk.css.map": "/WeddingWebsite/static/css/main.0b353f45.chunk.css.map",
+    "static/css/main.d6a15490.chunk.css.map": "/WeddingWebsite/static/css/main.d6a15490.chunk.css.map",
     "static/media/BeerCheckedShirt.jpg": "/WeddingWebsite/static/media/BeerCheckedShirt.e235069a.jpg",
+    "static/media/index.css": "/WeddingWebsite/static/media/Shink.ae6c01c6.otf",
     "static/media/FlowerBorder.png": "/WeddingWebsite/static/media/FlowerBorder.78f3f9e6.png",
     "static/media/MissToMrs.jpg": "/WeddingWebsite/static/media/MissToMrs.00150bf5.jpg",
-    "static/media/RobAndLauren.jpg": "/WeddingWebsite/static/media/RobAndLauren.cb32a8a2.jpg",
-    "static/media/index.css": "/WeddingWebsite/static/media/bromello.53d93f4d.otf"
+    "static/media/RobAndLauren.jpg": "/WeddingWebsite/static/media/RobAndLauren.cb32a8a2.jpg"
   }
 }
