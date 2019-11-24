@@ -61,8 +61,11 @@ function Timeline() {
                 <img className="underline" src={line_bottom} alt="underline" aria="no"/>
             </div>
         </div>
+        <div className="timeline-line" />
         {storyEvents.map((evt, index) => 
             <div className={`story-event ${index % 2 === 0 ? `left` : `right`}`} key={index}>
+                <div className={`timeline-line ${index > 0 && `not-first`}`} />
+                <div className="bullet-point" />
                 <div className="date">{evt.date}</div>
                 <div className="title">{evt.title}</div>
                 <div className="location">{evt.location}</div>

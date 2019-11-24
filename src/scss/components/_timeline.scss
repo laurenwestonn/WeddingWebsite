@@ -29,14 +29,39 @@
                 width: 160px;
                 filter: invert(1);
             }
-    }
+        }
     }
 
     .story-event {
-        margin: 20px 0 20px 40px;
+        margin: 20px 0;
+        position: relative;
 
-        > div {
-            margin: 0;
+        .timeline-line {
+            top: 23px;
+            height: 120px;
+            width: 1px;
+            position: absolute;
+            background: linear-gradient(180deg, $primary-color-dark 0%, rgba($primary-color-dark ,0.8) 46%, rgba(255,255,255,0) 100%);
+
+            &.not-first {
+                top: -170px;
+                height: 300px;
+                background: linear-gradient(180deg, rgba(black, 0), rgba($primary-color-dark, 0.5), rgba(black, 0));
+            }
+        }
+
+        .bullet-point {
+            background: $primary-color;
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            left: -5px;
+            top: 23px;
+            border-radius: 100%;
+        }
+
+        .date, .title, .location, .description {
+            margin-left: 20px;
             line-height: 1.2em;
         }
 
@@ -65,11 +90,28 @@
         @include media-breakpoint-up(sm) {
             &.left {
                 text-align: right;
-                margin-right: calc(50vw + 15px);
+                margin-right: 50vw;
+                .timeline-line {
+                    right: -20px;
+                }
+                .bullet-point {
+                    right: -25px;
+                    left: auto;
+                }
             }
             &.right {
                 text-align: left;
-                margin-left: calc(50vw + 15px);
+                margin-left: 50vw;
+                .timeline-line {
+                    left: -20px;
+                }
+                .bullet-point {
+                    left: -25px;
+                }
+            }
+
+            .date, .title, .location, .description {
+                margin-left: 0;
             }
         }
     
@@ -77,14 +119,78 @@
             .description {
                 font-size: 14px;
             }
+
+            &:hover {
+                &.left {
+                    .bullet-point {
+                        right: -30px;
+                        -webkit-transition: right 1s, top 1s, width 1s, height 1s;
+                        -moz-transition: right 1s, top 1s, width 1s, height 1s;
+                        -o-transition: right 1s, top 1s, width 1s, height 1s;
+                        transition: right 1s, top 1s, width 1s, height 1s;
+    
+                    }
+                }
+                &.right {
+                    .bullet-point {
+                        left: -30px;
+                        -webkit-transition: left 1s, top 1s, width 1s, height 1s;
+                        -moz-transition: left 1s, top 1s, width 1s, height 1s;
+                        -o-transition: left 1s, top 1s, width 1s, height 1s;
+                        transition: left 1s, top 1s, width 1s, height 1s;
+
+                    }
+                }
+                .bullet-point {
+                    top: 18px;
+                    width: 20px;
+                    height: 20px;
+
+                }
+
+                .date, .title {
+                    font-size: 20px;
+                    -webkit-transition: font-size 1s;
+                    -moz-transition: font-size 1s;
+                    -o-transition: font-size 1s;
+                    transition: font-size 1s;
+                }
+
+            }
         }
     
         @include media-breakpoint-up(xl) {
+
+
+            &:hover {
+                &.left {
+                    .bullet-point {
+                        right: -40px;
+                    }
+                }
+                &.right {
+                    .bullet-point {
+                        left: -40px;
+                    }
+                }
+            }
             &.left {
                 margin-right: calc(36vw + 15px);
+                .timeline-line {
+                    right: -30px;
+                }
+                .bullet-point {
+                    right: -35px;
+                }
             }
             &.right {
                 margin-left: calc(36vw + 15px);
+                .timeline-line {
+                    left: -30px;
+                }
+                .bullet-point {
+                    left: -35px;
+                }
             }
         }
 

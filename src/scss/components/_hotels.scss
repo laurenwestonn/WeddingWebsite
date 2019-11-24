@@ -1,6 +1,6 @@
 .hotels {
   padding: 40px;
-  background-color: beige;
+  background-color: $background-pale;
 
   a {
     text-decoration: none;
@@ -18,7 +18,6 @@
     .hotel-section {
       padding: 20px;
       margin: 10px 0;
-      border: 2px dotted black;
       background-color: white;
 
       @include media-breakpoint-up(md) {
