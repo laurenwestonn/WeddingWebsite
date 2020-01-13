@@ -1,4 +1,20 @@
 .service-option {
   border: 1px black solid;
   height: 170px;
+
+  &:hover {
+    .overlay {
+      display: flex;
+      background-color: rgba(black, 0.4);
+      height: 100%;
+      width: 100%;
+
+      h2 {
+        margin: auto;
+      }
+    }
+  }
+  .overlay {
+    display: none;
+  }
 }

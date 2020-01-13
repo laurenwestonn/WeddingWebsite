@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 export const ServiceOption = (props) => (
   <div className='col'>
     <div className='service-option'>
-      <span class="fas fa-camera"></span>
+      <span class={props.icon}></span>
       <i class="fas fa-camera"></i>
       <span class="fas fa-chevron-right"></span>
 
@@ -17,5 +17,5 @@ export const ServiceOption = (props) => (
 
 ServiceOption.propTypes = {
   name: PropTypes.string,
-  image: PropTypes.string
+  icon: PropTypes.string
 }

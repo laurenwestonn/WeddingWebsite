@@ -7,15 +7,15 @@ export const Schedule = () => {
     <div className='row no-gutters'>
       <ServiceOption
         name={'Photographer'}
-        image={'http://vectips.com/wp-content/uploads/2017/03/project-preview-large-2.png'}
+        icon={'fas fa-camera'}
       />
       <ServiceOption
-        name={'Photographer'}
-        image={'http://vectips.com/wp-content/uploads/2017/03/project-preview-large-2.png'}
+        name={'Florist'}
+        icon={'fas fa-camera'}
       />
       <ServiceOption
-        name={'Photographer'}
-        image={'http://vectips.com/wp-content/uploads/2017/03/project-preview-large-2.png'}
+        name={'Music'}
+        icon={'fas fa-chevron-right'}
       />
     </div>
     <ServiceDetails
