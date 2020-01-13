@@ -1,7 +1,7 @@
 import React from "react";
 import RSVPForm from "../components/RSVPForm";
 
-function RSVP() {
+export function RSVP() {
   return (
     <div className="rsvp">
       <h1 className="title">Will you attend?</h1>
@@ -10,5 +10,3 @@ function RSVP() {
     </div>
   );
 }
-
-export default RSVP;

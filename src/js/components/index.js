@@ -9,3 +9,4 @@ export { default as PersonInfo } from "./PersonInfo";
 export { default as RSVPForm } from "./RSVPForm";
 export { default as Timeline } from "./Timeline";
 export { default as WeddingNavBar } from "./WeddingNavBar";
+export { ServiceDetails, ServiceOption } from "./schedule";

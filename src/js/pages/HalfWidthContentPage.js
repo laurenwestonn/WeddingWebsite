@@ -1,20 +1,20 @@
 import React from "react";
-import { Location, RSVP } from "./index";
+import { RSVP, Schedule } from "./index";
 import Header from "../Header";
 import { Route } from "react-router-dom";
 
-function ContentPage() {
+function HalfWidthContentPage() {
   return (
     <>
       <Header />
       <div className="content-page">
         <div className="content">
           <Route path="*/rsvp" component={RSVP} />
-          <Route path="*/location" component={Location} />
+          <Route path="*/schedule" component={Schedule} />
         </div>
       </div>
     </>
   );
 }
 
-export default ContentPage;
+export default HalfWidthContentPage;

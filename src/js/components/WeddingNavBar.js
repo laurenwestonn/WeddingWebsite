@@ -11,10 +11,13 @@ function WeddingNavBar() {
               <Link to="/">OUR WEDDING</Link>
             </li>
             <li>
-              <Link to="/full-width/location">LOCATION </Link>
+              <Link to="/full/location">LOCATION </Link>
             </li>
             <li>
-              <Link to="/p/rsvp">RSVP</Link>
+              <Link to="/half/rsvp">RSVP</Link>
+            </li>
+            <li>
+              <Link to="/half/schedule">Schedule</Link>
             </li>
           </ul>
         </div>
