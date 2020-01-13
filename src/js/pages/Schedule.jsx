@@ -4,23 +4,29 @@ import { ServiceSelector } from '../components/schedule'
 
 export const Schedule = () => {
 
-  const [services, setServices] =  useState([
-    {
-    name: 'Photographer',
-    icon: 'fas fa-camera'
-  },{
-    name: 'Florirst',
-    icon: 'fa-camera'
-  },{
-    name: 'Decorator',
-    icon: 'fas fa-chevron-right'
-  },{
-    name: 'Videographer',
-    icon: 'fa-camera'
-  },{
-    name: 'Music',
-    icon: 'fa-camera'
-  }]
+  const [services, setServices] =  useState(
+    [
+      {
+        name: 'Photographer',
+        icon: 'fas fa-camera'
+      },
+      {
+        name: 'Florirst',
+        icon: 'fa-camera'
+      },
+      {
+        name: 'Decorator',
+        icon: 'fas fa-chevron-right'
+      },
+      {
+        name: 'Videographer',
+        icon: 'fa-camera'
+      },
+      {
+        name: 'Music',
+        icon: 'fa-camera'
+      }
+    ]
   )
 
   return (
