@@ -21,7 +21,8 @@ export const Schedule = () => {
     <ServiceDetails
       name={'Photographer'}
       images={['http://vectips.com/wp-content/uploads/2017/03/project-preview-large-2.png']}
-      decription={'Our photography will be done by Maddie Farris here is her webiste'}
+      description={'Our photography will be done by Maddie Farris. Here is her website'}
+
       website={'www.something.com'}
     />
   </div>
