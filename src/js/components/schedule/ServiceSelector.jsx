@@ -15,12 +15,10 @@ export const ServiceSelector = (props) => {
         props.services.map((service, i) => {
           if (i < 3) {
             return (
-              <div className='col'>
-                <ServiceOption
-                  service={service}
-                  setServices={props.setServices}
-                />
-              </div>
+              <ServiceOption
+                service={service}
+                setServices={props.setServices}
+              />
             )
           } else {
             return null
@@ -33,12 +31,10 @@ export const ServiceSelector = (props) => {
         props.services.map((service, i) => {
           if (i >= 3 && i < 6) {
             return (
-              <div className='col'>
-                <ServiceOption
-                  service={service}
-                  setServices={props.setServices}
-                />
-              </div>
+              <ServiceOption
+                service={service}
+                setServices={props.setServices}
+              />
             )
           } else {
             return null

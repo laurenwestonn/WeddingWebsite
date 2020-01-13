@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 export const ServiceOption = (props) => (
   <div className='col'>
-    <div className='service-option' onClick={() => console.log(`Service ${props.name} clicked bruv`)}>
+    <div className='service-option' onClick={() => console.log(`Service ${props.service.name} clicked bruv`)}>
       <span class={props.service.icon}></span>
       <i class="fas fa-camera"></i>
       <span class="fas fa-chevron-right"></span>
