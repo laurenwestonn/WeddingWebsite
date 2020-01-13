@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 export const ServiceDetails = () => {
-  return <div>ServiceDetails</div>
+  return <div className='service-details'>ServiceDetails</div>
 }
 
 
