@@ -3,7 +3,7 @@ import WatercolourFlowers from "../../images/borders/FlowerBorder.png";
 
 function FlowerBorder() {
   return (
-    <div class="flower-border">
+    <div className="flower-border">
       <img src={WatercolourFlowers} alt="Flower border" />
     </div>
   );

@@ -13,7 +13,7 @@ export function Hotels() {
                   <div className="hotel-section">
                     <div className="button-section">
                       <div className="hotel-name">Stanneylands</div>
-                      <span class="fas fa-chevron-right"></span>
+                      <span className="fas fa-chevron-right"></span>
                     </div>
                     <div className="underline"></div>
                     <div className="hotel-description">
@@ -36,7 +36,7 @@ export function Hotels() {
                   <div className="hotel-section">
                     <div className="button-section">
                       <div className="hotel-name">Handforth Premier Inn</div>
-                      <span class="fas fa-chevron-right"></span>
+                      <span className="fas fa-chevron-right"></span>
                     </div>
                     <div className="underline"></div>
                     <div className="hotel-description">
@@ -55,7 +55,7 @@ export function Hotels() {
                   <div className="hotel-section">
                     <div className="button-section">
                       <div className="hotel-name">Browse more</div>
-                      <span class="fas fa-chevron-right"></span>
+                      <span className="fas fa-chevron-right"></span>
                     </div>
                     <div className="underline"></div>
                     <div className="hotel-description">

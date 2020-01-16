@@ -41,7 +41,7 @@ function Directions() {
                     </div>
                     <div className="button-section">
                       <div className="button-text">View Map</div>
-                      <span class="fas fa-chevron-right"></span>  
+                      <span className="fas fa-chevron-right"></span>
                     </div>
                   </div>
                 </a>
@@ -60,8 +60,8 @@ function Directions() {
                     </div>
                     <div className="button-section">
                       <div className="button-text">View Map</div>
-                      <span class="fas fa-chevron-right"></span>                   
-                    </div>                  
+                      <span className="fas fa-chevron-right"></span>
+                    </div>
                   </div>
                 </a>
               </div>
