@@ -3,10 +3,16 @@ import PropTypes from 'prop-types'
 
 export const ServiceOption = (props) => (
   <div className='col'>
-    <div className='service-option' onClick={() => console.log(`Service ${props.service.name} clicked bruv`)}>
-      <span class={props.service.icon}></span>
-      <i class="fas fa-camera"></i>
-      <span class="fas fa-chevron-right"></span>
+    <div
+      className='service-option'
+      onClick={() => {
+        props.services[props.index].displayDetails = true
+        props.setServices(props.services)
+      }}
+    >
+      <span className={props.service.icon}></span>
+      <i className="fas fa-camera"></i>
+      <span className="fas fa-chevron-right"></span>
 
       <div className='overlay'>
         <h2>{props.service.name}</h2>
@@ -16,9 +22,12 @@ export const ServiceOption = (props) => (
 )
 
 ServiceOption.propTypes = {
-  service: PropTypes.objectOf({
-    name: PropTypes.string,
-    icon: PropTypes.string
+  index: PropTypes.number,
+  services: PropTypes.array.isRequired,
+  service: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    icon: PropTypes.string.isRequired,
+    displayDetails: PropTypes.bool
   }).isRequired,
   setServices: PropTypes.func
 }

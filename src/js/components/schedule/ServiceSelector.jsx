@@ -16,7 +16,10 @@ export const ServiceSelector = (props) => {
           if (i < 3) {
             return (
               <ServiceOption
+                key={i}
+                index={i}
                 service={service}
+                services={props.services}
                 setServices={props.setServices}
               />
             )
@@ -32,7 +35,10 @@ export const ServiceSelector = (props) => {
           if (i >= 3 && i < 6) {
             return (
               <ServiceOption
+                key={i}
+                index={i}
                 service={service}
+                services={props.services}
                 setServices={props.setServices}
               />
             )
@@ -47,6 +53,7 @@ export const ServiceSelector = (props) => {
 }
 
 ServiceSelector.propTypes = {
+  index: PropTypes.number.isRequired,
   services: PropTypes.array.isRequired,
   setServices: PropTypes.func.isRequired
 }
