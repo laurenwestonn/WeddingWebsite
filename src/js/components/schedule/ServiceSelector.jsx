@@ -3,11 +3,7 @@ import PropTypes from 'prop-types'
 import { ServiceOption } from './ServiceOption'
 
 export const ServiceSelector = (props) => {
-  //const noOfServices = props.services.length
-  //const noOfRows = Math.ceil(noOfServices / 3)
-  //const noPerRow = noOfServices > 2 ? 3 : 2
 
-  console.log(props.services)
   return (
     <div className='service-selector'>
       <div className='row no-gutters'>
@@ -53,7 +49,6 @@ export const ServiceSelector = (props) => {
 }
 
 ServiceSelector.propTypes = {
-  index: PropTypes.number.isRequired,
   services: PropTypes.array.isRequired,
   setServices: PropTypes.func.isRequired
 }

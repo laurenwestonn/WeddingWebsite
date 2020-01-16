@@ -6,8 +6,9 @@ export const ServiceOption = (props) => (
     <div
       className='service-option'
       onClick={() => {
-        props.services[props.index].displayDetails = true
-        props.setServices(props.services)
+        let newServices = [...props.services]
+        newServices[props.index].displayDetails = true
+        props.setServices(newServices)
       }}
     >
       <span className={props.service.icon}></span>

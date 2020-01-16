@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { ServiceSelector } from './ServiceSelector'
+import { ServiceDetails } from './ServiceDetails';
 
 export const ServicesContainer = () => {
 
@@ -8,7 +9,10 @@ export const ServicesContainer = () => {
       {
         name: 'Photographer',
         icon: 'fas fa-camera',
-        displayDetails: false
+        displayDetails: false,
+        description: 'Our photography will be done by Maddie Farris. Here is her website',
+        website: 'www.website.com',
+        images: ['http://vectips.com/wp-content/uploads/2017/03/project-preview-large-2.png']
       },
       {
         name: 'Florirst',
@@ -33,10 +37,35 @@ export const ServicesContainer = () => {
     ]
   )
 
+  let shown = false
+
   return (
-    <ServiceSelector
-      services={services}
-      setServices={setServices}
-    />
+    <>
+      {services.map((service,i) => {
+        if(service.displayDetails) {
+          shown = true
+          return (
+            <ServiceDetails
+              key={i}
+              name={service.name}
+              index={i}
+              services={services}
+              setServices={setServices}
+              images={service.images && service.images}
+              description={service.description && service.description}
+              website={service.website && service.website}
+            />
+          )
+        }
+        return null
+      })}
+
+      {
+        shown || <ServiceSelector
+          services={services}
+          setServices={setServices}
+        />
+      }
+    </>
   )
 }
