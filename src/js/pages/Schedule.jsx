@@ -11,19 +11,30 @@ export const Schedule = () => {
       <Accordion defaultActiveKey="1">
         { schedule.map((session, i) => (
             <Card>
-              <Accordion.Toggle as={Card.Header} eventKey={i}>
+              <Accordion.Toggle as={Card.Header} eventKey={i.toString()}>
                 <div className='accordion-header'>
                   <div className='row'>
                     <div className='col-2'>
                       {session.time}
                     </div>
-                    <div className='col-10'>
-                      {session.name}
-                    </div>
+                    { session.services ?
+                      <>
+                        <div className='col-9'>
+                          {session.name}
+                        </div>
+                        <div className='col-1'>
+                          \/
+                        </div>
+                      </>
+                      :
+                      <div className='col-10'>
+                        {session.name}
+                      </div>
+                    }
                   </div>
                 </div>
                 { session.services &&
-                  <Accordion.Collapse eventKey={i}>
+                  <Accordion.Collapse eventKey={i.toString()}>
                     <Card.Body>
                       <ServicesContainer services={session.services}/>
                     </Card.Body>

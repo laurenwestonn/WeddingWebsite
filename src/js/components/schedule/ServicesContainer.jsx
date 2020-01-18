@@ -2,39 +2,9 @@ import React, { useState } from 'react'
 import { ServiceSelector } from './ServiceSelector'
 import { ServiceDetails } from './ServiceDetails';
 
-export const ServicesContainer = () => {
+export const ServicesContainer = (props) => {
 
-  const [services, setServices] =  useState(
-    [
-      {
-        name: 'Photographer',
-        icon: 'fas fa-camera',
-        description: 'Our photography will be done by Maddie Farris. Here is her website',
-        website: 'www.website.com',
-        images: ['http://vectips.com/wp-content/uploads/2017/03/project-preview-large-2.png']
-      },
-      {
-        name: 'Florirst',
-        icon: 'fa-camera'
-      },
-      {
-        name: 'Decorator',
-        icon: 'fas fa-chevron-right'
-      },
-      {
-        name: 'Videographer',
-        icon: 'fa-camera'
-      },
-      {
-        name: 'Music',
-        icon: 'fa-camera'
-      },
-      {
-        name: 'Rings',
-        icon: 'fa-ring'
-      }
-    ]
-  )
+  const [services, setServices] =  useState(props.services)
 
   let shown = false
 

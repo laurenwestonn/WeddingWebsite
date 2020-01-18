@@ -31,61 +31,30 @@ const ceremonyServices = [
 
 const mealServices =  [
   {
-    name: 'Photographer',
+    name: 'Catering',
     icon: 'fas fa-camera',
-    description: 'Our photography will be done by Maddie Farris. Here is her website',
+    description: 'Our food will be made by Pink Pepper. Here is their website',
     website: 'www.website.com',
     images: ['http://vectips.com/wp-content/uploads/2017/03/project-preview-large-2.png']
   },
   {
-    name: 'Florirst',
-    icon: 'fa-camera'
-  },
-  {
-    name: 'Decorator',
-    icon: 'fas fa-chevron-right'
-  },
-  {
-    name: 'Videographer',
-    icon: 'fa-camera'
-  },
-  {
-    name: 'Music',
-    icon: 'fa-camera'
-  },
-  {
-    name: 'Rings',
-    icon: 'fa-ring'
+    name: 'Cake',
+    icon: 'fa-camera',
+    description: 'We will be having a naked chocolate cake made by Bun Voyage'
   }
 ]
 
 const partyServices =  [
   {
-    name: 'Photographer',
+    name: 'Band',
     icon: 'fas fa-camera',
-    description: 'Our photography will be done by Maddie Farris. Here is her website',
+    description: 'We\'ve hired the Stevie O\'Connor band',
     website: 'www.website.com',
     images: ['http://vectips.com/wp-content/uploads/2017/03/project-preview-large-2.png']
   },
   {
-    name: 'Florirst',
+    name: 'DJ',
     icon: 'fa-camera'
-  },
-  {
-    name: 'Decorator',
-    icon: 'fas fa-chevron-right'
-  },
-  {
-    name: 'Videographer',
-    icon: 'fa-camera'
-  },
-  {
-    name: 'Music',
-    icon: 'fa-camera'
-  },
-  {
-    name: 'Rings',
-    icon: 'fa-ring'
   }
 ]
 
