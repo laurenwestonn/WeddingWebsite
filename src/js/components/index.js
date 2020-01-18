@@ -2,6 +2,7 @@ export { default as AboutUs } from "./AboutUs";
 export { default as CoverPhoto } from "./CoverPhoto";
 export { default as Countdown } from "./Countdown";
 export { default as Directions } from "./Directions";
+export { GoFundMe } from "./GoFundMe";
 export { default as FlowerBorder } from "./FlowerBorder";
 export { Hotels } from "./Hotels";
 export { default as MapContainer } from "./MapContainer";
