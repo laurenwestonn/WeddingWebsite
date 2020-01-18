@@ -15,7 +15,7 @@ $(function() {
 function App() {
   return (
     <>
-      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
       <Route exact={true} path="/" component={HomePage} />
       <Route path="/half/" component={HalfWidthContentPage} />
       <Route path="/full/" component={FullWidthContentPage} />

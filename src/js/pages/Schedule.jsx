@@ -10,7 +10,7 @@ export const Schedule = () => {
       <h1>Schedule</h1>
       <Accordion defaultActiveKey="1">
         { schedule.map((session, i) => (
-            <Card>
+            <Card key={i}>
               <Accordion.Toggle as={Card.Header} eventKey={i.toString()}>
                 <div className='accordion-header'>
                   <div className='row'>
@@ -33,6 +33,7 @@ export const Schedule = () => {
                     }
                   </div>
                 </div>
+              </Accordion.Toggle>
                 { session.services &&
                   <Accordion.Collapse eventKey={i.toString()}>
                     <Card.Body>
@@ -40,11 +41,11 @@ export const Schedule = () => {
                     </Card.Body>
                   </Accordion.Collapse>
                 }
-              </Accordion.Toggle>
             </Card>
           ))
         }
       </Accordion>
+
     </div>
   )
 }

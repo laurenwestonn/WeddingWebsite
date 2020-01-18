@@ -11,12 +11,11 @@ export const ServiceOption = (props) => (
         props.setServices(newServices)
       }}
     >
-      <span className={props.service.icon}></span>
-      <i className="fas fa-camera"></i>
-      <span className="fas fa-chevron-right"></span>
-
+      <div className='icon-container'>
+        <span className={props.service.icon}></span>
+      </div>
       <div className='overlay'>
-        <h2>{props.service.name}</h2>
+        <h3>{props.service.name}</h3>
       </div>
     </div>
   </div>
