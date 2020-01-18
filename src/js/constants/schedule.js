@@ -1,45 +1,49 @@
+import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCamera, faFilm, faLeaf, faLightbulb, faMusic, faRing } from '@fortawesome/free-solid-svg-icons';
+import { faUtensils, faBirthdayCake, faGuitar, faHeadphones } from '@fortawesome/free-solid-svg-icons';
 
 const ceremonyServices = [
   {
     name: 'Photographer',
-    icon: 'fas fa-camera',
+    icon: <FontAwesomeIcon size="2x" icon={faCamera} />,
     description: 'Our photography will be done by Maddie Farris. Here is her website',
     website: 'www.website.com',
     images: ['http://vectips.com/wp-content/uploads/2017/03/project-preview-large-2.png']
   },
   {
     name: 'Videographer',
-    icon: 'fas fa-film'
+    icon: <FontAwesomeIcon size="2x" icon={faFilm} />
   },
   {
     name: 'Florirst',
-    icon: 'fab fa-pagelines'
+    icon: <FontAwesomeIcon size="2x" icon={faLeaf} />
   },
   {
     name: 'Decorator',
-    icon: 'far fa-lightbulb'
+    icon: <FontAwesomeIcon size="2x" icon={faLightbulb} />
   },
   {
     name: 'Music',
-    icon: 'fas fa-music'
+    icon: <FontAwesomeIcon size="2x" icon={faMusic} />
   },
   {
     name: 'Rings',
-    icon: 'fas fa-ring'
+    icon: <FontAwesomeIcon size="2x" icon={faRing} />
   }
 ]
 
 const mealServices =  [
   {
     name: 'Catering',
-    icon: 'fas fa-utensils',
+    icon: <FontAwesomeIcon size="2x" icon={faUtensils} />,
     description: 'Our food will be made by Pink Pepper. Here is their website',
     website: 'www.website.com',
     images: ['http://vectips.com/wp-content/uploads/2017/03/project-preview-large-2.png']
   },
   {
     name: 'Cake',
-    icon: 'fas fa-birthday-cake',
+    icon: <FontAwesomeIcon size="2x" icon={faBirthdayCake} />,
     description: 'We will be having a naked chocolate cake made by Bun Voyage'
   }
 ]
@@ -47,14 +51,14 @@ const mealServices =  [
 const partyServices =  [
   {
     name: 'Band',
-    icon: 'fas fa-guitar',
+    icon: <FontAwesomeIcon size="2x" icon={faGuitar} />,
     description: 'We\'ve hired the Stevie O\'Connor band',
     website: 'www.website.com',
     images: ['http://vectips.com/wp-content/uploads/2017/03/project-preview-large-2.png']
   },
   {
     name: 'DJ',
-    icon: 'fas fa-headphones'
+    icon: <FontAwesomeIcon size="2x" icon={faHeadphones} />
   }
 ]
 

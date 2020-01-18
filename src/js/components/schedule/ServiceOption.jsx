@@ -12,7 +12,7 @@ export const ServiceOption = (props) => (
       }}
     >
       <div className='icon-container'>
-        <span className={props.service.icon}></span>
+        {props.service.icon}
       </div>
       <div className='overlay'>
         <h3>{props.service.name}</h3>
