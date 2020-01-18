@@ -9,30 +9,29 @@ export const ServicesContainer = () => {
       {
         name: 'Photographer',
         icon: 'fas fa-camera',
-        displayDetails: false,
         description: 'Our photography will be done by Maddie Farris. Here is her website',
         website: 'www.website.com',
         images: ['http://vectips.com/wp-content/uploads/2017/03/project-preview-large-2.png']
       },
       {
         name: 'Florirst',
-        icon: 'fa-camera',
-        displayDetails: false
+        icon: 'fa-camera'
       },
       {
         name: 'Decorator',
-        icon: 'fas fa-chevron-right',
-        displayDetails: false
+        icon: 'fas fa-chevron-right'
       },
       {
         name: 'Videographer',
-        icon: 'fa-camera',
-        displayDetails: false
+        icon: 'fa-camera'
       },
       {
         name: 'Music',
-        icon: 'fa-camera',
-        displayDetails: false
+        icon: 'fa-camera'
+      },
+      {
+        name: 'Rings',
+        icon: 'fa-ring'
       }
     ]
   )
