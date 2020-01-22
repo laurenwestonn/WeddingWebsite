@@ -2,6 +2,8 @@ import React from 'react'
 import { Accordion, Card } from 'react-bootstrap'
 import { ServicesContainer } from '../components/schedule'
 import { schedule } from '../constants/schedule'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 export const Schedule = () => {
 
@@ -23,7 +25,7 @@ export const Schedule = () => {
                           {session.name}
                         </div>
                         <div className='col-1'>
-                          \/
+                          <FontAwesomeIcon icon={faChevronDown} />
                         </div>
                       </>
                       :

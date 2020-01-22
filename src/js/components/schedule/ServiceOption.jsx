@@ -26,7 +26,7 @@ ServiceOption.propTypes = {
   services: PropTypes.array.isRequired,
   service: PropTypes.shape({
     name: PropTypes.string.isRequired,
-    icon: PropTypes.string.isRequired,
+    icon: PropTypes.object.isRequired,
     displayDetails: PropTypes.bool
   }).isRequired,
   setServices: PropTypes.func

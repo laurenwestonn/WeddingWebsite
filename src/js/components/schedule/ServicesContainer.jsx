@@ -20,9 +20,10 @@ export const ServicesContainer = (props) => {
               index={i}
               services={services}
               setServices={setServices}
-              images={service.images && service.images}
-              description={service.description && service.description}
-              website={service.website && service.website}
+              images={service.images}
+              description={service.description}
+              websiteName={service.websiteName}
+              websiteAddress={service.websiteAddress}
             />
           )
         }

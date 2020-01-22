@@ -5,7 +5,7 @@ import {
   AboutUs,
   FlowerBorder,
   Countdown,
-  MapContainer,
+  // MapContainer,
   Timeline
 } from "../components";
 import Rob from "../../images/theLovelyCouple/Dot/BeerCheckedShirt.jpg";
