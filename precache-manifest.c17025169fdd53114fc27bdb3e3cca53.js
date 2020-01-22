@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "81b56f03abd3b5a38b034034345e3bd9",
+    "revision": "1b005f277d6c45772a105c076f156ab4",
     "url": "/index.html"
   },
   {
-    "revision": "b22d9cade2f6b75faf9f",
+    "revision": "065ec21273cb7b5e3066",
     "url": "/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "3502098389e25fd71436",
-    "url": "/static/css/main.f31ad5eb.chunk.css"
+    "revision": "143b65691858ae3d7485",
+    "url": "/static/css/main.4dc239f8.chunk.css"
   },
   {
-    "revision": "b22d9cade2f6b75faf9f",
-    "url": "/static/js/2.980ec23c.chunk.js"
+    "revision": "065ec21273cb7b5e3066",
+    "url": "/static/js/2.b5374f6e.chunk.js"
   },
   {
-    "revision": "3502098389e25fd71436",
-    "url": "/static/js/main.7db985fb.chunk.js"
+    "revision": "143b65691858ae3d7485",
+    "url": "/static/js/main.19ce0856.chunk.js"
   },
   {
     "revision": "211bd59a4159edb7fae5",
@@ -46,5 +46,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ae6c01c6172eb614c60603afbf6aa039",
     "url": "/static/media/Shink.ae6c01c6.otf"
+  },
+  {
+    "revision": "ccaf09b6066f2aadc5a998743979bfb2",
+    "url": "/static/media/pink-pepper-logo.ccaf09b6.png"
   }
 ]);
