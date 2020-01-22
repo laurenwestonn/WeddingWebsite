@@ -19,6 +19,9 @@ function WeddingNavBar() {
             <li>
               <Link to="/half/schedule">Schedule</Link>
             </li>
+            <li>
+              <Link to="/half/gifts">Gifts</Link>
+            </li>
           </ul>
         </div>
       </div>

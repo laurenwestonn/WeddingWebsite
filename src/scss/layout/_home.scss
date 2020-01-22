@@ -2,7 +2,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Shink", "Bromello";
+  font-family:  "Bromello", "Shink";
 }
 
 .fa, .far, .fas, .fab {
@@ -13,7 +13,7 @@ body {
   font-family: "Open Sans",sans-serif
 }
 
-.content-page {
+.half {
   background-image: url(https://i.pinimg.com/originals/0d/40/6b/0d406bf054e7332af25b1127b6cf9764.jpg);
   background-size: cover;
   padding: 50px 20px;
@@ -38,6 +38,12 @@ body {
       padding: 80px;
     }
     @include media-breakpoint-up(lg) {
+    }
+
+    h1 {
+      text-align: center;
+      color: $primary-color;
+      margin-bottom: 30px;
     }
 
     .rsvp,
