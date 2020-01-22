@@ -6,8 +6,8 @@ import pinkPepperLogo from "../../images/services/pink-pepper-logo.png"
 
 const ceremonyServices = [
   {
-    name: 'Photographer',
-    icon: <FontAwesomeIcon size="2x" icon={faCamera} />,
+    name: 'Photos',
+    icon: <FontAwesomeIcon size="3x" icon={faCamera} color={'whitesmoke'} />,
     description: 'Our photography will be done by Maddie Farris. Here is her website',
     websiteName: 'maddiefarrisphotography.co.uk',
     websiteAddress: 'https://www.maddiefarrisphotography.co.uk/',
@@ -17,8 +17,8 @@ const ceremonyServices = [
     ]
   },
   {
-    name: 'Videographer',
-    icon: <FontAwesomeIcon size="2x" icon={faFilm} />,
+    name: 'Videos',
+    icon: <FontAwesomeIcon size="3x" icon={faFilm} color={'whitesmoke'} />,
     description: 'Jo Gendle will be capturing our whole day and will make us a short feature film and a highlights video.',
     websiteName: 'jogendlefilms.com',
     websiteAddress: 'https://www.jogendlefilms.com',
@@ -27,8 +27,8 @@ const ceremonyServices = [
   },
   {
     name: 'Florirst',
-    icon: <FontAwesomeIcon size="2x" icon={faLeaf} />,
-    description: 'The flowers for the grooms and bridal party will be made by Jill Naughton',
+    icon: <FontAwesomeIcon size="3x" icon={faLeaf} color={'whitesmoke'} />,
+    description: 'The flowers for the groom and bridal party will be made by Jill Naughton',
     websiteName: '@jillnflowers',
     websiteAddress: 'https://www.instagram.com/jillnflowers/?hl=en',
     images: [
@@ -38,7 +38,7 @@ const ceremonyServices = [
   },
   {
     name: 'Decorator',
-    icon: <FontAwesomeIcon size="2x" icon={faLightbulb} />,
+    icon: <FontAwesomeIcon size="3x" icon={faLightbulb} color={'whitesmoke'} />,
     description: 'Emma from Planning My Special Day will be decorating the venue with many lights and rustic touches',
     websiteName: 'facebook.com/SpecialDaysWeddingVenueDressing',
     websiteAddress: 'https://www.facebook.com/Special-Days-Wedding-Venue-Dressing-164721670280381/',
@@ -49,7 +49,7 @@ const ceremonyServices = [
   },
   {
     name: 'Music',
-    icon: <FontAwesomeIcon size="2x" icon={faMusic} />,
+    icon: <FontAwesomeIcon size="3x" icon={faMusic} color={'whitesmoke'} />,
     description: 'We will be having Rob\'s college friend Sarah Wragg playing Disney songs on harp during the ceremony.',
     websiteName: 'sarahdaviesharpist.com',
     websiteAddress: 'https://www.sarahdaviesharpist.com/',
@@ -60,7 +60,7 @@ const ceremonyServices = [
   },
   {
     name: 'Rings',
-    icon: <FontAwesomeIcon size="2x" icon={faRing} />,
+    icon: <FontAwesomeIcon size="3x" icon={faRing} color={'whitesmoke'} />,
     description: 'Our wedding rings will be hand made by Harveys. They\'ll match the ones we\'ve chosen from the designs drawn by Harvey.',
     websiteName: 'harveysthejewellers.co.uk',
     websiteAddress: 'http://harveysthejewellers.co.uk/',
@@ -73,7 +73,7 @@ const ceremonyServices = [
 const mealServices =  [
   {
     name: 'Catering',
-    icon: <FontAwesomeIcon size="2x" icon={faUtensils} />,
+    icon: <FontAwesomeIcon size="3x" icon={faUtensils} color={'whitesmoke'}/>,
     description: 'Our food will be made by Pink Pepper. Here is their website',
     websiteName: 'pinkpeppercatering.co.uk',
     websiteAddress: 'https://pinkpeppercatering.co.uk/',
@@ -84,7 +84,7 @@ const mealServices =  [
   },
   {
     name: 'Cake',
-    icon: <FontAwesomeIcon size="2x" icon={faBirthdayCake} />,
+    icon: <FontAwesomeIcon size="3x" icon={faBirthdayCake} color={'whitesmoke'} />,
     description: 'We will be having a naked chocolate cake made by Bun Voyage',
     websiteName: 'facebook.com/pg/handsoffmybuns',
     websiteAddress: 'https://www.facebook.com/pg/handsoffmybuns/posts/',
@@ -98,7 +98,7 @@ const mealServices =  [
 const partyServices =  [
   {
     name: 'Band',
-    icon: <FontAwesomeIcon size="2x" icon={faGuitar} />,
+    icon: <FontAwesomeIcon size="3x" icon={faGuitar} color={'whitesmoke'} />,
     description: 'At night you\'ll be rocking out to the UK\'s Country Entertainer of the Year Stevie O\'Connor and his 7 piece country rock band.',
     websiteName: 'stevieoconnor.com',
     websiteAddress: 'https://www.stevieoconnor.com/',
@@ -109,7 +109,7 @@ const partyServices =  [
   },
   {
     name: 'DJ',
-    icon: <FontAwesomeIcon size="2x" icon={faHeadphones} />,
+    icon: <FontAwesomeIcon size="3x" icon={faHeadphones} color={'whitesmoke'} />,
     description: 'Disco Cheshire will be playing tunes all night long',
     websiteName: 'facebook.com/discocheshire',
     websiteAddress: 'https://www.facebook.com/discocheshire/',

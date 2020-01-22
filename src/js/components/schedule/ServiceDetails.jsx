@@ -18,6 +18,7 @@ export const ServiceDetails = (props) => (
       <span className="fas fa-chevron-left"/>
     </div>
     <h2>{props.name}</h2>
+    <div className='separator' />
     <div className='description'>{props.description}</div>
     <a
       className='website'

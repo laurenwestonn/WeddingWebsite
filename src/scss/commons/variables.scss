@@ -1,5 +1,10 @@
-$primary-color: #b58700;
+$primary-color: #dea550;
 $primary-color-dark: #8b6800;
 $primary-color-pale: #e9e6db;
 
 $background-pale: #dca;
+
+
+:export {
+  primary: $primary-color;
+}
