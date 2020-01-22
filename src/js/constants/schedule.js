@@ -122,7 +122,7 @@ const partyServices =  [
 
 export const schedule = [
   {
-    time: '1pm',
+    time: '1:30pm',
     name: 'Arrivals'
   },
   {
@@ -135,16 +135,16 @@ export const schedule = [
     name: 'Canapes / Photos'
   },
   {
-    time: '3:30pm',
-    name: 'Meal & Cake Cutting',
+    time: '4:30pm',
+    name: 'Wedding Breakfast',
     services: mealServices
   },
   {
-    time: '6pm',
-    name: 'First Dance'
+    time: '7:30pm',
+    name: 'First Dance & Cake Cutting'
   },
   {
-    time: '6:05pm',
+    time: '7:35pm',
     name: 'Party!',
     services: partyServices
   },
