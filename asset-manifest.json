@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.42f1b435.chunk.css",
+    "main.css": "/static/css/main.b4bda474.chunk.css",
     "main.js": "/static/js/main.98a86af5.chunk.js",
     "main.js.map": "/static/js/main.98a86af5.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.02f7032d.js",
@@ -9,10 +9,10 @@
     "static/js/2.b5374f6e.chunk.js": "/static/js/2.b5374f6e.chunk.js",
     "static/js/2.b5374f6e.chunk.js.map": "/static/js/2.b5374f6e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f8bbb2d80177476d174d68a98583e27b.js": "/precache-manifest.f8bbb2d80177476d174d68a98583e27b.js",
+    "precache-manifest.573d32fd07e996dadf02d944e9fb588e.js": "/precache-manifest.573d32fd07e996dadf02d944e9fb588e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.42f1b435.chunk.css.map": "/static/css/main.42f1b435.chunk.css.map",
+    "static/css/main.b4bda474.chunk.css.map": "/static/css/main.b4bda474.chunk.css.map",
     "static/media/BeerCheckedShirt.jpg": "/static/media/BeerCheckedShirt.4eb1c7c1.jpg",
     "static/media/index.css": "/static/media/Shink.ae6c01c6.otf",
     "static/media/FlowerBorder.png": "/static/media/FlowerBorder.78f3f9e6.png",
