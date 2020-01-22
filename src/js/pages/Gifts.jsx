@@ -7,7 +7,7 @@ export const Gifts = () => {
     <h1>Gifts</h1>
     <div className='separator' />
     <div className='row'>
-      <div className='col'>
+      <div className='col-12 col-xl-6'>
         <div className='description'>
           For our wedding we won't be asking for gifts just simply that you turn up, have a great time and add some wear to your dancing shoes.
           <br></br>
@@ -23,7 +23,7 @@ export const Gifts = () => {
           Rob and Lauren x
         </div>
       </div>
-      <div className='col'>
+      <div className='col-12 col-xl-6'>
         <GoFundMe />
       </div>
     </div>
