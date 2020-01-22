@@ -78,7 +78,7 @@
             color: grey;
             font-size: 14px;
         }
-    
+
         .description {
             font-size: 12px;
             font-style: italic;
@@ -114,7 +114,7 @@
                 margin-left: 0;
             }
         }
-    
+
         @include media-breakpoint-up(md) {
             .description {
                 font-size: 14px;
@@ -123,17 +123,17 @@
             &:hover {
                 &.left {
                     .bullet-point {
-                        right: -30px;
+                        right: -32px;
                         -webkit-transition: right 1s, top 1s, width 1s, height 1s;
                         -moz-transition: right 1s, top 1s, width 1s, height 1s;
                         -o-transition: right 1s, top 1s, width 1s, height 1s;
                         transition: right 1s, top 1s, width 1s, height 1s;
-    
+
                     }
                 }
                 &.right {
                     .bullet-point {
-                        left: -30px;
+                        left: -33px;
                         -webkit-transition: left 1s, top 1s, width 1s, height 1s;
                         -moz-transition: left 1s, top 1s, width 1s, height 1s;
                         -o-transition: left 1s, top 1s, width 1s, height 1s;
@@ -158,7 +158,7 @@
 
             }
         }
-    
+
         @include media-breakpoint-up(xl) {
 
 
@@ -177,19 +177,19 @@
             &.left {
                 margin-right: calc(36vw + 15px);
                 .timeline-line {
-                    right: -30px;
+                    right: -32px;
                 }
                 .bullet-point {
-                    right: -35px;
+                    right: -37px;
                 }
             }
             &.right {
                 margin-left: calc(36vw + 15px);
                 .timeline-line {
-                    left: -30px;
+                    left: -33px;
                 }
                 .bullet-point {
-                    left: -35px;
+                    left: -38px;
                 }
             }
         }
