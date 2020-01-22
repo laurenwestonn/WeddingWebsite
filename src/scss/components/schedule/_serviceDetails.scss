@@ -26,16 +26,22 @@
   }
 
   .description {
-    margin: 10px 40px;
+    margin: 10px 10px;
     color: #606060;
     font-size: 14px;
   }
 
   .website {
-    margin: 0 40px;
+    margin: 0 10px;
     color: $primary-color;
     font-size: 14px;
+  }
 
+  @include media-breakpoint-up(xl) {
+     .description, .website {
+      margin-left: 40px;
+      margin-right: 40px;
+    }
   }
 
   .images {
