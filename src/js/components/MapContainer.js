@@ -10,7 +10,7 @@ let lonLat = {lat: 53.355548, lng: -2.238814};
 
 function MapContainer(props) {
   return (
-    <div className="map-container">
+    <div className="map-container" style={{ height: '400px' }}>
       <Map
         google={props.google}
         zoom={13}
