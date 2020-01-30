@@ -93,10 +93,14 @@ function RSVPForm() {
           </Form.Text>
         </Form.Group>
 
-        <Button variant="primary" type="submit">
-          Submit
-        </Button>
+        <div className="button-container">
+          <Button variant="primary" type="submit">
+            Submit
+          </Button>
+        </div>
       </Form>
+
+      <div className='information'>Any issues, please drop me an email at <a href='mailto:lauren-weston@hotmail.co.uk'>lauren-weston@hotmail.co.uk</a></div>
     </div>
   );
 }

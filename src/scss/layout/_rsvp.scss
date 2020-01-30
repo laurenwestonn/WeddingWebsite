@@ -1,59 +1,71 @@
 
-    form {
-      .form-group {
-        margin-bottom: 1.5rem;
+form {
+  .form-group {
+    margin-bottom: 1.5rem;
 
-        .mb-2 {
-          display: flex;
-          justify-content: center;
-          .custom-radio {
-            label {
-              margin-right: 40px;
-            }
-          }
+    .mb-2 {
+      display: flex;
+      justify-content: center;
+      .custom-radio {
+        label {
+          margin-right: 40px;
         }
-
-        .mb-3 {
-          display: flex;
-          justify-content: space-around;
-        }
-
-        input {
-          border: 0;
-          border-bottom: 1px $primary-color solid;
-          border-radius: 0;
-          padding-left: 0;
-
-          &:focus {
-            border: 0;
-            border-bottom: 1px $primary-color-dark solid;
-            box-shadow: none;
-          }
-        }
-
-        .custom-radio .custom-control-input {
-          /* This is the default state */
-          &:checked ~ .custom-control-label::before {
-            background-color: $primary-color;
-            border-color: $primary-color;
-          }
-
-          /* active state i.e. displayed while the mouse is being pressed down */
-          &:active ~ .custom-control-label::before {
-            color: #fff;
-            background-color: $primary-color-dark;
-          }
-
-          /* the shadow; displayed while the element is in focus */
-          &:focus ~ .custom-control-label::before {
-            box-shadow: 0 0 0 1px #fff,
-              0 0 0 0.2rem rgba($primary-color-dark, 0.25);
-          }
-        }
-      }
-
-      button {
-        display: block;
-        margin: 60px auto 0;
       }
     }
+
+    .mb-3 {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    input {
+      border: 0;
+      border-bottom: 1px $primary-color solid;
+      border-radius: 0;
+      padding-left: 0;
+
+      &:focus {
+        border: 0;
+        border-bottom: 1px $primary-color-dark solid;
+        box-shadow: none;
+      }
+    }
+
+    .custom-radio .custom-control-input {
+      /* This is the default state */
+      &:checked ~ .custom-control-label::before {
+        background-color: $primary-color;
+        border-color: $primary-color;
+      }
+
+      /* active state i.e. displayed while the mouse is being pressed down */
+      &:active ~ .custom-control-label::before {
+        color: #fff;
+        background-color: $primary-color-dark;
+      }
+
+      /* the shadow; displayed while the element is in focus */
+      &:focus ~ .custom-control-label::before {
+        box-shadow: 0 0 0 1px #fff,
+          0 0 0 0.2rem rgba($primary-color-dark, 0.25);
+      }
+    }
+  }
+
+  .button-container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.information {
+  text-align: center;
+  margin-top: 60px;
+  color: grey;
+  font-size: 13px;
+
+  a {
+    color: $primary-color;
+  }
+}
