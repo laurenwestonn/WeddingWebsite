@@ -1,17 +1,4 @@
 .gifts {
-
-  .separator {
-    width: 60%;
-    border-bottom: 1px solid $background-pale;
-    display: flex;
-    margin: 0 auto 20px;
-
-    @include media-breakpoint-up('xl') {
-      margin-bottom: 70px;
-    }
-  }
-
-
   .description {
     font-size: 14px;
     color: #777;
