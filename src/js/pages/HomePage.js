@@ -23,7 +23,7 @@ function HomePage() {
       name: "Lauren Weston",
       image: Lauren,
       bio:
-        "Equally creative as she is technical, Lauren grew up loving art and drama but ended up with a degree in Computer Science. This party animal lives life to its fullest."
+        "Equally creative as she is technical, Lauren grew up loving art and drama but ended up with a degree in Computer Science. Loves dancing and any excuse to play music. First to a buffet and last to leave a party"
     }
   ];
 
