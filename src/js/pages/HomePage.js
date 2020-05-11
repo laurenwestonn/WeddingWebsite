@@ -34,7 +34,7 @@ function HomePage() {
         <CoverPhoto isBig={true} />
         <AboutUs people={aboutUsPeople} />
         <FlowerBorder />
-        <Countdown countdownFrom={new Date(2020, 6, 5, 14, 0, 0)} />
+        <Countdown />
         <MapContainer />
         <Timeline />
       </div>

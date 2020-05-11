@@ -14,8 +14,8 @@ function Countdown(props) {
       let msBetween =
         (props.countdownFrom
           ? props.countdownFrom
-          : new Date(2020, 6, 5, 14, 0, 0)) - new Date();
-
+          : new Date(2021, 6, 4, 14, 0, 0)) - new Date();
+          console.log(`Comparing dates ${new Date(2021, 6, 4, 14, 0, 0)} and ${new Date()}`)
       setDays(Math.floor(msBetween / (msToHours * 24)));
       let daysRemainder = msBetween % (msToHours * 24);
 
@@ -33,7 +33,7 @@ function Countdown(props) {
   return (
     <div className="countdown">
       <div className="countdown-info">
-        <div className="date">5th July 2020</div>
+        <div className="date">4th July 2021</div>
         <div className="location">
           <a className="address-1" href="https://www.styallodge.co.uk/">
             Styal Lodge
