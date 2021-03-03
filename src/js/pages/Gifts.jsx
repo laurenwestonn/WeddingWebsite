@@ -23,7 +23,7 @@ export const Gifts = () => {
           Rob and Lauren x
         </div>
       </div>
-      <div className='col-12 col-xl-6'>
+      <div className='col-12 col-xl-6 go-fund-me-wrapper'>
         <GoFundMe />
       </div>
     </div>
